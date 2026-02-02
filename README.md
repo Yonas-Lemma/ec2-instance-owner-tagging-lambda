@@ -8,6 +8,9 @@ This AWS Lambda function automatically tags newly created EC2 instances with the
 Whenever an EC2 instance is launched, this solution captures the launch event using **AWS EventBridge** (which listens to CloudTrail events), triggers the Lambda function, and tags the instance with the username of the person who launched it. This makes it easy to identify who launched each instance, improving accountability and operational transparency.
 
 ---
+Architecture Diagram
+<img width="1140" height="445" alt="Arch" src="https://github.com/user-attachments/assets/e470617b-4cbc-46a4-a77c-0f6e199c09e1" />
+
 
 ## Features
 
